@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+  background-image: url('bg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+    margin: auto;
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+    font-weight: 400;
+}
+.container,
+.title {
+  margin-top: 3em;
+}
+
+.box {
+  margin: 0 auto;
+  background-color: #535456;
+  height: 325px;
+  width: 235px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.7);
+}
+#circle {
+    margin-top: 4px;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.red {
+  background-color: #ff605c;
+  margin-left: 8px;
+}
+.yellow {
+  background-color: #ffbd44;
+  margin-left: 3px;
+}
+.green {
+  background-color: #00ca4e;
+  margin-left: 3px;
+}
+
+/* Input */
+.input {
+    margin-top: 0em;
+}
+input{
+    width: 230px;
+    direction: rtl;
+    margin: 0px;
+    font-size: 3rem;
+    background-color: #535456;
+    border: none;
+    padding-right: 10px;
+    color: white;
+    font-weight: 100;
+}
+
+/* Grid */
+.grid-box {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: none;
+}
+.grid-box button {
+    border: none;
+    color: white;
+    font-weight: 200;
+}
+.grid-box button:hover {
+    cursor: pointer;
+}
+.item {
+    border: 0.1px solid #535456;
+    background-color: #636466;
+    padding: 12px 15px;
+    font-size: 21px;
+    text-align: center;
+}
+.symbol {
+    background-color: #F49E3F;
+}
+.eq {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: none;
+}
+.color{
+    background-color: #7D7D7F;
+}
+
+.space{
+    border-left: 1px solid #7D7D7F;
+    border-top: 0.1px solid #535456;
+    border-bottom: none;
+    border-right: 0.1px solid #535456;
+}
+
+.zero {
+    border-right: none;
+    border-bottom: none;
+}
+
+.dot {
+    border-bottom: none;
+}
