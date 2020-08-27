@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #333;
+}
+.title {
+    text-align: center;
+    margin-top: 10vh;
+    padding: 1rem 0rem;
+}
+form{
+    text-align: center;
+    color: white;
+}
+
+.firstInput, .secondInput {
+    font-size: 1.5rem;
+    margin: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(107, 107, 107);
+    color: #333;
+    padding: 10px;
+}
+.btn{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border: none !important;
+    margin-top: 2rem;
+}
+.btn button{
+    border: none;
+}
+.fas{
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.fas:hover{
+    background-color: yellowgreen;
+}
+.answer {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
